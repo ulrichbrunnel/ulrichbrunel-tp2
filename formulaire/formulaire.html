@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <form class="formulaire">
+        <h1>Inscription au restaurant japonais</h1>
+
+        <div class="formulaire__div">
+            <label class="formulaire__label" for="nom">Nom</label>
+            <input class="formulaire__input" id="nom" type="text" placeholder="Entrez votre nom">
+
+            <label class="formulaire__label" for="prenom">Prénom</label>
+            <input class="formulaire__input" id="prenom" type="text" placeholder="Entrez votre prénom">
+        </div>
+
+        <div class="formulaire__div">
+            <label class="formulaire__label" for="courriel">Courriel</label>
+            <input class="formulaire__input" id="courriel" type="email" placeholder="Entrez votre courriel">
+
+            <label class="formulaire__label" for="telephone">Téléphone</label>
+            <input class="formulaire__input" id="telephone" type="tel" placeholder="Entrez votre numéro de téléphone">
+
+            <label class="formulaire__label" for="adresse">Adresse</label>
+            <input class="formulaire__input" id="adresse" type="text" placeholder="Entrez votre adresse">
+
+            <label class="formulaire__label" for="dateNaissance">Date de naissance</label>
+            <input class="formulaire__input" id="dateNaissance" type="date">
+
+            <label class="formulaire__label" for="motdepasse">Mot de passe</label>
+            <input class="formulaire__input" id="motdepasse" type="password" placeholder="Entrez un mot de passe">
+        </div>
+
+        <fieldset class="formulaire__fieldset">
+            <legend>Abonnement</legend>
+            <label><input type="radio" name="abonnement" value="novice"> Novice</label>
+            <label><input type="radio" name="abonnement" value="intermediaire"> Intermédiaire</label>
+            <label><input type="radio" name="abonnement" value="pro"> Pro</label>
+        </fieldset>
+
+        <div class="formulaire__div">
+            <label><input type="checkbox" name="newsletter"> Je souhaite recevoir la newsletter</label>
+        </div>
+
+        <input class="formulaire__submit" type="submit" value="Valider l'inscription">
+    </form>
+</body>
+</html>

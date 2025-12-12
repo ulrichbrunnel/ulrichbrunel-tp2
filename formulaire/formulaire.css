@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.formulaire {
+    background-color: #fff8f0;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 600px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #d94f2b;
+}
+
+.formulaire__div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.formulaire__label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.formulaire__input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.formulaire__input:focus {
+    border-color: #d94f2b;
+    outline: none;
+}
+
+.formulaire__fieldset {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.formulaire__fieldset legend {
+    padding: 0 5px;
+    font-weight: bold;
+    color: #d94f2b;
+}
+
+.formulaire__fieldset label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.formulaire__submit {
+    background-color: #d94f2b;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulaire__submit:hover {
+    background-color: #bf3d1e;
+}

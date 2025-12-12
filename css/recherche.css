@@ -1,0 +1,28 @@
+
+/* recherche */
+.recherche {
+    display: flex;
+    gap: 10px;
+}
+
+.recherche input[type="text"] {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.recherche button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #243B87;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.recherche button:hover {
+    background-color: #7A51C8;
+}

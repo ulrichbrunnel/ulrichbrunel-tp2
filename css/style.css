@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif; /* police pour le corps de texte */
+}
+
+h1, h2 {
+    font-family: 'Lobster', cursive; /* police pour les titres */
+}
+
+p, li, a, td, th, caption {
+    font-family: 'Roboto', sans-serif; /* police pour paragraphes, tableaux et liens */
+}
+
+/* ///////////////////////////////// Général */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+section, header, footer {
+    min-height: 100vh;
+}
+
+.centre {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: rgb(240 248 255 / 57%);
+    padding: 20px;
+}
+
+/* /////////////////////// Couleurs d'arrière plan des sections */
+.conteneur:nth-of-type(1) { background-color: bisque; }
+.conteneur:nth-of-type(2) { background-color: rgb(100, 200, 23); }
+.conteneur:nth-of-type(3) { background-color: rgb(17, 118, 138); }
+.conteneur:nth-of-type(4) { background-color: rgb(163, 42, 182); }
+.conteneur:nth-of-type(5) { background-color: rgb(228, 205, 27); }
+.conteneur:nth-of-type(6) { background-color: rgb(44, 39, 4); }
+
+/* ////////////////////////////////////////////////// .hero */
+.hero {
+    background-image: url("../images/img_japon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* /////////////////////// ACCUEIL  */
+.accueil__flex {
+    display: flex;
+    gap: 40px;
+    padding: 40px 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-height: 100vh; 
+}
+
+/* Colonne texte accueil */
+.accueil__texte {
+    flex: 2 1 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+
+.accueil__texte .button {
+    margin-top: 20px; 
+}
+
+/* Colonne infos */
+.accueil__infos {
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center; 
+}
+
+
+
+/* /////////////////////// BOUTON */
+.button {
+    background: linear-gradient(90deg, #243B87, #7A51C8); 
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+    width: 20%;
+    text-decoration: none;
+    display: block;
+}
+
+/* /////////////////////// PIED DE PAGE */
+.footer {
+    background-color: #f2f2f2;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.footer-section {
+    width: 220px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    color: #b03030;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #d14b4b;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #8a1f1f;
+    padding-left: 3px;
+}
+
+.footer p {
+    margin: 6px 0;
+}
+
+/* /////////////////////// TABLEAUX */
+.tableau, .legende {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tableau th, .tableau td, .legende td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tableau th {
+    background-color: #f2f2f2;
+    color: #b03030;
+    font-weight: bold;
+}
+
+.legende caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* /////////////////////// Section Articles */
+#plats-japonais {
+    padding: 40px 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+#plats-japonais h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.article__figure {
+    flex: 1 1 300px;
+}
+
+.article__figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.article__texte {
+    flex: 1 1 300px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.article__texte h3 {
+    margin-top: 0;
+    font-family: 'Lobster', cursive;
+}
+
+.article.reverse {
+    flex-direction: row-reverse;
+}
+
+
