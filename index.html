@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liens internes</title>
-     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/article.css">
     <link rel="stylesheet" href="css/galerie.css">
@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="css/logo.css">
     <link rel="stylesheet" href="css/tableau.css">
     
-    
-
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,13 +21,10 @@
 </head>
 <body>
 
-
-    <!-- ====================== SECTION ACCUEIL ====================== -->
+<!-- ====================== SECTION ACCUEIL ====================== -->
 <div class="conteneur hero">
     <header class="centre" id="accueil">
         <div class="accueil__flex">
-            
-          
             <div class="accueil__texte">
                 <p>La cuisine japonaise, ou washoku, est reconnue dans le monde entier pour son élégance, sa simplicité et son profond respect des ingrédients. Plus qu’une manière de se nourrir, c’est un art de vivre qui met en valeur l’équilibre, la saisonnalité et la beauté visuelle des plats. Sushi, ramen, tempura, donburi, okonomiyaki… chaque spécialité raconte une histoire, mêlant traditions ancestrales et goûts raffinés.</p>
 
@@ -40,7 +35,6 @@
                 <a class="button" href="formulaire/formulaire.html">Inscription</a>
             </div>
 
-           
             <div class="accueil__infos">
                 <h1>TP2 - Site mono page</h1>
                 <h2>Mise en page Web</h2>
@@ -48,17 +42,18 @@
                 <p>Techniques d’intégration multimédia</p>
                 <p>Collège de Maisonneuve</p>
                 <p>Automne 2025</p>
-               
-<figure class="entete__sociaux">
-    <a href="https://github.com/ulrichbrunnel/ulrichbrunel-tp2" target="_blank">
-        <img src="https://s2.svgbox.net/social.svg?ic=github&color=000000" width="25" height="25" alt="GitHub" />
-    </a>
-    <img src="https://s2.svgbox.net/social.svg?ic=facebook&color=00f" width="25" height="25" alt="Facebook" />
-    <img src="https://s2.svgbox.net/social.svg?ic=stackoverflow&color=a00" width="25" height="25" alt="StackOverflow" />
-    <img src="https://s2.svgbox.net/social.svg?ic=linkedin&color=0960da" width="25" height="16" alt="LinkedIn" />
-    <img src="https://s2.svgbox.net/social.svg?ic=messenger&color=00f" width="25" height="25" alt="Messenger" />
-    <img src="https://s2.svgbox.net/social.svg?ic=discord&color=3609da" width="25" height="25" alt="Discord" />
-</figure>
+
+                <figure class="entete__sociaux">
+                    <a href="https://github.com/ulrichbrunnel/ulrichbrunel-tp2" target="_blank">
+                        <img src="https://s2.svgbox.net/social.svg?ic=github&color=000000" width="25" height="25" alt="GitHub">
+                    </a>
+                    <img src="https://s2.svgbox.net/social.svg?ic=facebook&color=00f" width="25" height="25" alt="Facebook">
+                    <img src="https://s2.svgbox.net/social.svg?ic=stackoverflow&color=a00" width="25" height="25" alt="StackOverflow">
+                    <img src="https://s2.svgbox.net/social.svg?ic=linkedin&color=0960da" width="25" height="16" alt="LinkedIn">
+                    <img src="https://s2.svgbox.net/social.svg?ic=messenger&color=00f" width="25" height="25" alt="Messenger">
+                    <img src="https://s2.svgbox.net/social.svg?ic=discord&color=3609da" width="25" height="25" alt="Discord">
+                </figure>
+
                 <!-- Zone de recherche -->
                 <div class="recherche">
                     <input type="text" placeholder="Rechercher...">
@@ -67,11 +62,11 @@
             </div>
         </div>
 
-        <!-- Menu burger  -->
-        <div class="navigation"> 
-            <input type="checkbox" name="" id="chk-burger">
+        <!-- Menu burger -->
+        <div class="navigation">
+            <input type="checkbox" name="menu-toggle" id="chk-burger">
             <label for="chk-burger" class="menu__burger">
-                <img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000" width="32" height="32">
+                <img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000" width="32" height="32" alt="Menu">
             </label>
             <nav class="menu">
                 <a href="#accueil" class="menu__a">Accueil</a>
@@ -79,298 +74,275 @@
                 <a href="#videos" class="menu__a">videos</a>
                 <a href="#article" class="menu__a">article</a>
                 <a href="#tableau" class="menu__a">tableau</a>
-                <a href="#pied de page" class="menu__a">pied de page</a>
+                <a href="#pied-de-page" class="menu__a">pied de page</a>
             </nav>
         </div>
     </header>
 </div>
 
-    <!-- ====================== AUTRES SECTIONS ====================== -->
-
-    <div class="conteneur">
+<!-- ====================== GALERIE ====================== -->
+<div class="conteneur">
     <section class="centre" id="galerie">
         <h2>galerie</h2>
-
         <figure class="galerie">
             <figure class="galerie__figure">
-                <img src="images/img_gal1.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal1.jpg" alt="Galerie image 1" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
-
             <figure class="galerie__figure">
-                <img src="images/img_gal2.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal2.jpg" alt="Galerie image 2" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
-
             <figure class="galerie__figure">
-                <img src="images/img_gal3.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal3.jpg" alt="Galerie image 3" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
-
             <figure class="galerie__figure">
-                <img src="images/img_gal4.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal4.jpg" alt="Galerie image 4" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
-
             <figure class="galerie__figure">
-                <img src="images/img_gal5.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal5.jpg" alt="Galerie image 5" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
-
             <figure class="galerie__figure">
-                <img src="images/img_gal6.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal6.jpg" alt="Galerie image 6" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
-
             <figure class="galerie__figure">
-                <img src="images/img_gal7.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal7.jpg" alt="Galerie image 7" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
-
             <figure class="galerie__figure">
-                <img src="images/img_gal8.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal8.jpg" alt="Galerie image 8" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
-
             <figure class="galerie__figure">
-                <img src="images/img_gal9.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal9.jpg" alt="Galerie image 9" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
-
             <figure class="galerie__figure">
-                <img src="images/img_gal10.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal10.jpg" alt="Galerie image 10" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
-
             <figure class="galerie__figure">
-                <img src="images/img_gal11.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal11.jpg" alt="Galerie image 11" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
-
             <figure class="galerie__figure">
-                <img src="images/img_gal12.jpg" alt="" class="galerie__img">
-                <caption class="galerie__caption"></caption>
+                <img src="images/img_gal12.jpg" alt="Galerie image 12" class="galerie__img">
+                <figcaption class="galerie__caption"></figcaption>
             </figure>
         </figure>
-
     </section>
 </div>
 
-
-    <div class="conteneur">
-    <section class="centre" id="videos">
-        <h2>videos</h2>
-
-      <div class="videos">
-    <div class="video">
-        <iframe src="https://www.youtube.com/embed/PwHV0dXQzI8" allowfullscreen></iframe>
-        <p>
-            Découvrez 5 plats japonais incontournables que vous devez absolument goûter,
-            des saveurs authentiques qui représentent l’essence même de la gastronomie japonaise.
-        </p>
+<!-- ====================== VIDEOS ====================== -->
+<div class="conteneur">
+<section class="centre" id="videos">
+    <h2>videos</h2>
+    <div class="videos">
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/PwHV0dXQzI8" allowfullscreen></iframe>
+            <p>
+                Découvrez 5 plats japonais incontournables que vous devez absolument goûter,
+                des saveurs authentiques qui représentent l’essence même de la gastronomie japonaise.
+            </p>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/ft4wWlKQuMY" allowfullscreen></iframe>
+            <p>
+                À travers l’histoire et l’identité de la cuisine japonaise, cette vidéo met en lumière
+                un art culinaire fondé sur l’équilibre, la saisonnalité et le respect des ingrédients.
+                Des traditions ancestrales aux influences modernes, la gastronomie japonaise raconte
+                une histoire riche que nous vous invitons à redécouvrir avec nous.
+            </p>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/PXfmM3vHCYQ" allowfullscreen></iframe>
+            <p>
+                Notre vision revisitée de la cuisine japonaise vous attend.
+                Venez vivre une expérience unique et savoureuse grâce à notre
+                buffet à volonté japonais, alliant qualité, diversité et plaisir.
+            </p>
+        </div>
     </div>
-
-    <div class="video">
-        <iframe src="https://www.youtube.com/embed/ft4wWlKQuMY" allowfullscreen></iframe>
-        <p>
-            À travers l’histoire et l’identité de la cuisine japonaise, cette vidéo met en lumière
-            un art culinaire fondé sur l’équilibre, la saisonnalité et le respect des ingrédients.
-            Des traditions ancestrales aux influences modernes, la gastronomie japonaise raconte
-            une histoire riche que nous vous invitons à redécouvrir avec nous.
-        </p>
-    </div>
-
-    <div class="video">
-        <iframe src="https://www.youtube.com/embed/PXfmM3vHCYQ" allowfullscreen></iframe>
-        <p>
-            Notre vision revisitée de la cuisine japonaise vous attend.
-            Venez vivre une expérience unique et savoureuse grâce à notre
-            buffet à volonté japonais, alliant qualité, diversité et plaisir.
-        </p>
-    </div>
+</section>
 </div>
 
+<!-- ====================== ARTICLE ====================== -->
+<div class="conteneur">
+    <section class="centre" id="article">
+        <h2>article</h2>
+        <div class="conteneur">
+            <section class="centre" id="plats-japonais">
+                <h2>Plats Japonais</h2>
 
-    </section>
-</div>
-
-
-    <div class="conteneur">
-        <section class="centre" id="article">
-            <h2>article</h2>
-            <div class="conteneur">
-                <section class="centre" id="plats-japonais">
-                    <h2>Plats Japonais</h2>
-
-                    <!-- Articles -->
-                    <article class="article">
-                        <figure class="article__figure">
-                            <img src="images/img_sushi.jpg" alt="Sushi (saumon)">
-                            <figcaption>Sushi (saumon)</figcaption>
-                        </figure>
-                        <div class="article__texte">
-                            <h3>Sushi</h3>
-                            <p>Le sushi est un plat emblématique du Japon à base de riz vinaigré et de poisson frais. Il se déguste souvent avec de la sauce soja, du wasabi et du gingembre mariné.</p>
-                        </div>
-                    </article>
-
-                    <article class="article reverse">
-                        <figure class="article__figure">
-                            <img src="images/img_ramen.jpg" alt="Ramen classique">
-                            <figcaption>Ramen (classique)</figcaption>
-                        </figure>
-                        <div class="article__texte">
-                            <h3>Ramen</h3>
-                            <p>Le ramen est une soupe de nouilles japonaises riche en saveurs, souvent accompagnée de viande, œuf et légumes. Chaque région du Japon a sa propre recette de bouillon unique.</p>
-                        </div>
-                    </article>
-
-                    <article class="article">
-                        <figure class="article__figure">
-                            <img src="images/img_tempura.jpg" alt="Tempura crevette">
-                            <figcaption>Tempura (crevette)</figcaption>
-                        </figure>
-                        <div class="article__texte">
-                            <h3>Tempura</h3>
-                            <p>La tempura est un plat frit léger composé de crevettes ou de légumes enrobés d’une pâte croustillante. Elle est souvent servie avec une sauce spéciale à base de soja et dashi.</p>
-                        </div>
-                    </article>
-
-                    <article class="article reverse">
-                        <figure class="article__figure">
-                            <img src="images/img_takoyaki.jpg" alt="Takoyaki">
-                            <figcaption>Takoyaki</figcaption>
-                        </figure>
-                        <div class="article__texte">
-                            <h3>Takoyaki</h3>
-                            <p>Le takoyaki est une boule de pâte garnie de morceaux de poulpe et cuite dans un moule spécial. Elle est traditionnellement nappée de sauce takoyaki et parsemée de copeaux de bonite.</p>
-                        </div>
-                    </article>
-
-                    <article class="article">
-                        <figure class="article__figure">
-                            <img src="images/img_okonomiyaki.jpg" alt="Okonomiyaki">
-                            <figcaption>Okonomiyaki</figcaption>
-                        </figure>
-                        <div class="article__texte">
-                            <h3>Okonomiyaki</h3>
-                            <p>L'okonomiyaki est une crêpe salée garnie de chou, viande ou fruits de mer et divers ingrédients au choix. Elle est souvent recouverte de sauce spéciale, mayonnaise et flocons de bonite séchée.</p>
-                        </div>
-                    </article>
-
-                </section>
-            </div>
-        </section>
-    </div>
-
-    <div class="conteneur">
-        <section class="centre" id="tableau">
-            <h2>tableau</h2>
-            <!-- Tableau -->
-            <table class="tableau">
-                <caption>Plats japonais et informations nutritionnelles</caption>
-                <thead>
-                    <tr>
-                        <th>Plat Japonais</th>
-                        <th>Prix Moyen ($)</th>
-                        <th>Calories (100g)</th>
-                        <th>Sucres (g)</th>
-                        <th>Glucides (g)</th>
-                        <th>Protéines (g)</th>
-                        <th>Indice Glycémique / Note</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Sushi (saumon)</td>
-                        <td>12.00</td>
-                        <td>130</td>
-                        <td>1</td>
-                        <td>18</td>
-                        <td>6</td>
-                        <td>Bas (25)</td>
-                    </tr>
-                    <tr>
-                        <td>Ramen (classique)</td>
-                        <td>14.50</td>
-                        <td>436</td>
-                        <td>4</td>
-                        <td>60</td>
-                        <td>15</td>
-                        <td>Moyen (55)</td>
-                    </tr>
-                    <tr>
-                        <td>Tempura (crevette)</td>
-                        <td>10.00</td>
-                        <td>240</td>
-                        <td>2</td>
-                        <td>22</td>
-                        <td>9</td>
-                        <td>Moyen (50)</td>
-                    </tr>
-                    <tr>
-                        <td>Takoyaki</td>
-                        <td>8.50</td>
-                        <td>175</td>
-                        <td>1.5</td>
-                        <td>24</td>
-                        <td>6</td>
-                        <td>Moyen (45)</td>
-                    </tr>
-                    <tr>
-                        <td>Okonomiyaki</td>
-                        <td>11.00</td>
-                        <td>210</td>
-                        <td>2.5</td>
-                        <td>28</td>
-                        <td>8</td>
-                        <td>Moyen (60)</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </div>
-
-    <div class="conteneur">
-        <section class="centre" id="pied de page">
-            <h2>pied de page</h2>
-            <div class="conteneur">
-                <footer class="pied centre">
-                    <h3>Pied de page</h3>
-                    <div class="footer">
-                        <div class="footer-section">
-                            <h3>Restaurant Japonais</h3>
-                            <p>© 2025 – Tous droits réservés</p>
-                            <p>Votre voyage culinaire au cœur du Japon.</p>
-                        </div>
-
-                        <div class="footer-section">
-                            <h3>Informations</h3>
-                            <p>Adresse : 123 Rue Sakura, Paris</p>
-                            <p>Téléphone : 01 23 45 67 89</p>
-                            <p>Email : contact@resto-japonais.fr</p>
-                        </div>
-
-                        <div class="footer-section">
-                            <h3>Navigation</h3>
-                            <p><a href="#">Accueil</a></p>
-                            <p><a href="#">Menu</a></p>
-                            <p><a href="#">Réservations</a></p>
-                            <p><a href="#">Contact</a></p>
-                        </div>
-
-                        <div class="footer-section">
-                            <h3>Suivez-nous</h3>
-                            <p><a href="#">Instagram</a></p>
-                            <p><a href="#">Facebook</a></p>
-                            <p><a href="#">TikTok</a></p>
-                            <p><a href="#">TripAdvisor</a></p>
-                        </div>
+                <!-- Tous les articles originaux conservés -->
+                <article class="article">
+                    <figure class="article__figure">
+                        <img src="images/img_sushi.jpg" alt="Sushi (saumon)">
+                        <figcaption>Sushi (saumon)</figcaption>
+                    </figure>
+                    <div class="article__texte">
+                        <h3>Sushi</h3>
+                        <p>Le sushi est un plat emblématique du Japon à base de riz vinaigré et de poisson frais. Il se déguste souvent avec de la sauce soja, du wasabi et du gingembre mariné.</p>
                     </div>
-                </footer>
+                </article>
+
+                <article class="article reverse">
+                    <figure class="article__figure">
+                        <img src="images/img_ramen.jpg" alt="Ramen classique">
+                        <figcaption>Ramen (classique)</figcaption>
+                    </figure>
+                    <div class="article__texte">
+                        <h3>Ramen</h3>
+                        <p>Le ramen est une soupe de nouilles japonaises riche en saveurs, souvent accompagnée de viande, œuf et légumes. Chaque région du Japon a sa propre recette de bouillon unique.</p>
+                    </div>
+                </article>
+
+                <article class="article">
+                    <figure class="article__figure">
+                        <img src="images/img_tempura.jpg" alt="Tempura crevette">
+                        <figcaption>Tempura (crevette)</figcaption>
+                    </figure>
+                    <div class="article__texte">
+                        <h3>Tempura</h3>
+                        <p>La tempura est un plat frit léger composé de crevettes ou de légumes enrobés d’une pâte croustillante. Elle est souvent servie avec une sauce spéciale à base de soja et dashi.</p>
+                    </div>
+                </article>
+
+                <article class="article reverse">
+                    <figure class="article__figure">
+                        <img src="images/img_takoyaki.jpg" alt="Takoyaki">
+                        <figcaption>Takoyaki</figcaption>
+                    </figure>
+                    <div class="article__texte">
+                        <h3>Takoyaki</h3>
+                        <p>Le takoyaki est une boule de pâte garnie de morceaux de poulpe et cuite dans un moule spécial. Elle est traditionnellement nappée de sauce takoyaki et parsemée de copeaux de bonite.</p>
+                    </div>
+                </article>
+
+                <article class="article">
+                    <figure class="article__figure">
+                        <img src="images/img_okonomiyaki.jpg" alt="Okonomiyaki">
+                        <figcaption>Okonomiyaki</figcaption>
+                    </figure>
+                    <div class="article__texte">
+                        <h3>Okonomiyaki</h3>
+                        <p>L'okonomiyaki est une crêpe salée garnie de chou, viande ou fruits de mer et divers ingrédients au choix. Elle est souvent recouverte de sauce spéciale, mayonnaise et flocons de bonite séchée.</p>
+                    </div>
+                </article>
+
+            </section>
+        </div>
+    </section>
+</div>
+
+<!-- ====================== TABLEAU ====================== -->
+<div class="conteneur">
+    <section class="centre" id="tableau">
+        <h2>tableau</h2>
+        <table class="tableau">
+            <caption>Plats japonais et informations nutritionnelles</caption>
+            <thead>
+                <tr>
+                    <th>Plat Japonais</th>
+                    <th>Prix Moyen ($)</th>
+                    <th>Calories (100g)</th>
+                    <th>Sucres (g)</th>
+                    <th>Glucides (g)</th>
+                    <th>Protéines (g)</th>
+                    <th>Indice Glycémique / Note</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sushi (saumon)</td>
+                    <td>12.00</td>
+                    <td>130</td>
+                    <td>1</td>
+                    <td>18</td>
+                    <td>6</td>
+                    <td>Bas (25)</td>
+                </tr>
+                <tr>
+                    <td>Ramen (classique)</td>
+                    <td>14.50</td>
+                    <td>436</td>
+                    <td>4</td>
+                    <td>60</td>
+                    <td>15</td>
+                    <td>Moyen (55)</td>
+                </tr>
+                <tr>
+                    <td>Tempura (crevette)</td>
+                    <td>10.00</td>
+                    <td>240</td>
+                    <td>2</td>
+                    <td>22</td>
+                    <td>9</td>
+                    <td>Moyen (50)</td>
+                </tr>
+                <tr>
+                    <td>Takoyaki</td>
+                    <td>8.50</td>
+                    <td>175</td>
+                    <td>1.5</td>
+                    <td>24</td>
+                    <td>6</td>
+                    <td>Moyen (45)</td>
+                </tr>
+                <tr>
+                    <td>Okonomiyaki</td>
+                    <td>11.00</td>
+                    <td>210</td>
+                    <td>2.5</td>
+                    <td>28</td>
+                    <td>8</td>
+                    <td>Moyen (60)</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</div>
+
+<!-- ====================== PIED DE PAGE ====================== -->
+<div class="conteneur">
+    <section class="centre" id="pied-de-page">
+        <h2>pied de page</h2>
+        <footer class="pied centre">
+            <h3>Pied de page</h3>
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Restaurant Japonais</h3>
+                    <p>© 2025 – Tous droits réservés</p>
+                    <p>Votre voyage culinaire au cœur du Japon.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Informations</h3>
+                    <p>Adresse : 123 Rue Sakura, Paris</p>
+                    <p>Téléphone : 01 23 45 67 89</p>
+                    <p>Email : contact@resto-japonais.fr</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <p><a href="#">Accueil</a></p>
+                    <p><a href="#">Menu</a></p>
+                    <p><a href="#">Réservations</a></p>
+                    <p><a href="#">Contact</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <p><a href="#">Instagram</a></p>
+                    <p><a href="#">Facebook</a></p>
+                    <p><a href="#">TikTok</a></p>
+                    <p><a href="#">TripAdvisor</a></p>
+                </div>
             </div>
-        </section>
-    </div>
+        </footer>
+    </section>
+</div>
 
 </body>
 </html>
