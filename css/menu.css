@@ -1,52 +1,46 @@
-/* sélecteurs qui cible le menu et la case à côcher */
-#chk-burger{
-    display: none; /* permet de rendre un élément invisible */
+#chk-burger {
+    display: none;
     position: fixed;
-    top:70px;
-    right: 20px;
+    top: 4vw;
+    right: 4vw;
 }
 
-.menu{
-    display:block;
-    padding : 10px;
+.menu {
+    display: block;
+    padding: min(2vw, 10px);
     background-color: #00000098;
-    width: 300px;
+    width: min(80vw, 300px);
     position: fixed;
-    top:70px;
-    right: 20px;
-
+    top: 4vw;
+    right: 2vw;
     transform: translateX(110%);
-    transition : transform 1s;
-
+    transition: transform 0.5s ease;
+       z-index: 1010;
 }
 
-.menu__burger{
+.menu__burger {
     position: fixed;
-    top:20px;
-    right: 20px;
+    top: 2vw;
+    right: 2vw;
+    width: min(8vw, 40px);
+    height: min(8vw, 40px);
 }
 
 .menu a {
-    display : block;
+    display: block;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: clamp(1.2rem, 4vw, 2rem);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding:3px;
-    margin:10px;
-    color : #fff;
-    /* background-color: #afd4ea17; */
-    background: linear-gradient(to left, #afd4ea00 , #afd4ea56);
-}
-.menu a:hover{
-    background: linear-gradient(to right, #afd4ea00 , #afd4ea56);
+    padding: min(1vw, 3px);
+    margin: min(2vw, 10px);
+    color: #fff;
+    background: linear-gradient(to left, #afd4ea00, #afd4ea56);
 }
 
+.menu a:hover {
+    background: linear-gradient(to right, #afd4ea00, #afd4ea56);
+}
 
-/* 
-    Si la case à côcher est côcher selectionne le menu 
-    et rendre le menu visible 
-*/
 #chk-burger:checked ~ .menu {
- /* permet de rendre un élément visible */
- transform: translateX(0);
+    transform: translateX(0);
 }

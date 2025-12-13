@@ -1,0 +1,42 @@
+#videos .videos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: min(2vw, 30px);
+    flex-wrap: wrap;
+    margin: min(2vw, 30px) auto 0;
+    padding: min(3vw, 30px);
+    max-width: 95%;
+    background-color: rgba(240, 248, 255, 0.85);
+    border-radius: 1rem;
+}
+
+#videos .video {
+    flex: 1 1 250px;
+    max-width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+#videos .video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+#videos .video p {
+    margin-top: min(1vw, 10px);
+    font-size: clamp(0.8rem, 2vw, 0.95rem);
+    color: #222;
+}
+
+#videos .video:hover {
+    transform: scale(1.05);
+}
+
+#videos .video:hover p {
+    font-weight: bold;
+    transition: font-weight 0.3s ease;
+}

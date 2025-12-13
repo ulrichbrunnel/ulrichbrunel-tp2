@@ -1,0 +1,35 @@
+.tableau, .legende {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: min(5vw, 60px);
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    min-height: min(50vh, 500px);
+}
+
+.tableau th, .tableau td, .legende td {
+    border: 1px solid #ccc;
+    padding: min(1vw, 20px) min(1vw, 10px);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+.tableau th {
+    background-color: rgba(242, 242, 242, 0.6);
+    color: #b03030;
+    font-weight: bold;
+}
+
+.legende caption {
+    font-weight: bold;
+    margin-bottom: min(1vw, 8px);
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+}
+
+#tableau {
+    background-image: url("../images/img_japfood.jpg");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}

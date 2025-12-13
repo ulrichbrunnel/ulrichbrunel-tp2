@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liens internes</title>
-    <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/galerie.css">
+    <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/recherche.css">
+    <link rel="stylesheet" href="css/recherche.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/tableau.css">
+    
+    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,8 +48,17 @@
                 <p>Techniques d’intégration multimédia</p>
                 <p>Collège de Maisonneuve</p>
                 <p>Automne 2025</p>
-                <p>Github-page : <a href="https://github.com/ulrichbrunnel/ulrichbrunel-tp2">Lien vers Github</a></p>
-
+               
+<figure class="entete__sociaux">
+    <a href="https://github.com/ulrichbrunnel/ulrichbrunel-tp2" target="_blank">
+        <img src="https://s2.svgbox.net/social.svg?ic=github&color=000000" width="25" height="25" alt="GitHub" />
+    </a>
+    <img src="https://s2.svgbox.net/social.svg?ic=facebook&color=00f" width="25" height="25" alt="Facebook" />
+    <img src="https://s2.svgbox.net/social.svg?ic=stackoverflow&color=a00" width="25" height="25" alt="StackOverflow" />
+    <img src="https://s2.svgbox.net/social.svg?ic=linkedin&color=0960da" width="25" height="16" alt="LinkedIn" />
+    <img src="https://s2.svgbox.net/social.svg?ic=messenger&color=00f" width="25" height="25" alt="Messenger" />
+    <img src="https://s2.svgbox.net/social.svg?ic=discord&color=3609da" width="25" height="25" alt="Discord" />
+</figure>
                 <!-- Zone de recherche -->
                 <div class="recherche">
                     <input type="text" placeholder="Rechercher...">
@@ -58,39 +75,129 @@
             </label>
             <nav class="menu">
                 <a href="#accueil" class="menu__a">Accueil</a>
-                <a href="#un" class="menu__a">UN</a>
-                <a href="#deux" class="menu__a">DEUX</a>
-                <a href="#trois" class="menu__a">TROIS</a>
-                <a href="#quatre" class="menu__a">QUATRE</a>
-                <a href="#cinq" class="menu__a">CINQ</a>
-                <a href="#six" class="menu__a">SIX</a>
+                <a href="#galerie" class="menu__a">galerie</a>
+                <a href="#videos" class="menu__a">videos</a>
+                <a href="#article" class="menu__a">article</a>
+                <a href="#tableau" class="menu__a">tableau</a>
+                <a href="#pied de page" class="menu__a">pied de page</a>
             </nav>
         </div>
     </header>
 </div>
 
     <!-- ====================== AUTRES SECTIONS ====================== -->
-    <div class="conteneur">
-        <section class="centre" id="un">
-            <h2>UN</h2>
-        </section>
-    </div>
 
     <div class="conteneur">
-        <section class="centre" id="deux">
-            <h2>DEUX</h2>
-        </section>
-    </div>
+    <section class="centre" id="galerie">
+        <h2>galerie</h2>
+
+        <figure class="galerie">
+            <figure class="galerie__figure">
+                <img src="images/img_gal1.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+
+            <figure class="galerie__figure">
+                <img src="images/img_gal2.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+
+            <figure class="galerie__figure">
+                <img src="images/img_gal3.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+
+            <figure class="galerie__figure">
+                <img src="images/img_gal4.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+
+            <figure class="galerie__figure">
+                <img src="images/img_gal5.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+
+            <figure class="galerie__figure">
+                <img src="images/img_gal6.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+
+            <figure class="galerie__figure">
+                <img src="images/img_gal7.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+
+            <figure class="galerie__figure">
+                <img src="images/img_gal8.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+
+            <figure class="galerie__figure">
+                <img src="images/img_gal9.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+
+            <figure class="galerie__figure">
+                <img src="images/img_gal10.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+
+            <figure class="galerie__figure">
+                <img src="images/img_gal11.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+
+            <figure class="galerie__figure">
+                <img src="images/img_gal12.jpg" alt="" class="galerie__img">
+                <caption class="galerie__caption"></caption>
+            </figure>
+        </figure>
+
+    </section>
+</div>
+
 
     <div class="conteneur">
-        <section class="centre" id="trois">
-            <h2>TROIS</h2>
-        </section>
+    <section class="centre" id="videos">
+        <h2>videos</h2>
+
+      <div class="videos">
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/PwHV0dXQzI8" allowfullscreen></iframe>
+        <p>
+            Découvrez 5 plats japonais incontournables que vous devez absolument goûter,
+            des saveurs authentiques qui représentent l’essence même de la gastronomie japonaise.
+        </p>
     </div>
 
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/ft4wWlKQuMY" allowfullscreen></iframe>
+        <p>
+            À travers l’histoire et l’identité de la cuisine japonaise, cette vidéo met en lumière
+            un art culinaire fondé sur l’équilibre, la saisonnalité et le respect des ingrédients.
+            Des traditions ancestrales aux influences modernes, la gastronomie japonaise raconte
+            une histoire riche que nous vous invitons à redécouvrir avec nous.
+        </p>
+    </div>
+
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/PXfmM3vHCYQ" allowfullscreen></iframe>
+        <p>
+            Notre vision revisitée de la cuisine japonaise vous attend.
+            Venez vivre une expérience unique et savoureuse grâce à notre
+            buffet à volonté japonais, alliant qualité, diversité et plaisir.
+        </p>
+    </div>
+</div>
+
+
+    </section>
+</div>
+
+
     <div class="conteneur">
-        <section class="centre" id="quatre">
-            <h2>QUATRE</h2>
+        <section class="centre" id="article">
+            <h2>article</h2>
             <div class="conteneur">
                 <section class="centre" id="plats-japonais">
                     <h2>Plats Japonais</h2>
@@ -157,8 +264,8 @@
     </div>
 
     <div class="conteneur">
-        <section class="centre" id="cinq">
-            <h2>CINQ</h2>
+        <section class="centre" id="tableau">
+            <h2>tableau</h2>
             <!-- Tableau -->
             <table class="tableau">
                 <caption>Plats japonais et informations nutritionnelles</caption>
@@ -225,8 +332,8 @@
     </div>
 
     <div class="conteneur">
-        <section class="centre" id="six">
-            <h2>Six</h2>
+        <section class="centre" id="pied de page">
+            <h2>pied de page</h2>
             <div class="conteneur">
                 <footer class="pied centre">
                     <h3>Pied de page</h3>

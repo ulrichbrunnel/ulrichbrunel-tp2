@@ -1,0 +1,18 @@
+.entete__sociaux {
+    margin-top: min(2vw, 10px);
+    display: flex;
+    gap: min(2vw, 10px);
+    align-items: center;
+}
+
+.entete__sociaux img {
+    width: min(6vw, 25px);
+    height: min(6vw, 25px);
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.entete__sociaux img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
