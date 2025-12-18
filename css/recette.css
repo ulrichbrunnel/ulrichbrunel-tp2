@@ -1,0 +1,132 @@
+#recette {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#recette h1,
+#recette h2,
+#recette h3 {
+  font-family: 'DynaPuff', cursive;
+}
+
+
+
+
+/* 
+   SECTION RECETTES
+ */
+#recette {
+  background-color: #f6e6a6;
+  padding: 2rem;
+}
+
+#recette h1 {
+  font-family: 'Aguafina Script', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/*
+   CONTENEUR D’UNE RECETTE
+ */
+.recette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 2px dotted #b9a46a;
+}
+
+/* 
+   IMAGE
+ */
+.recette__image {
+  order: 1;
+  flex: 1 1 35%;
+  max-width: 35%;
+  transform: rotate(-4deg);
+  transition: transform 0.3s ease;
+}
+
+.recette__image:hover {
+  transform: rotate(0deg);
+}
+
+.recette__figure {
+  border: 2px solid #53402f;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.recette__img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+.recette__figcaption {
+  text-align: center;
+  margin-top: 6px;
+  font-style: italic;
+  background-color: rgba(83, 64, 47, 0.15);
+  padding: 4px;
+}
+
+/* 
+   INGRÉDIENTS 
+*/
+.recette__div:nth-of-type(1) {
+  order: 2;
+  flex: 1 1 55%;
+}
+
+.recette__div:nth-of-type(1) h2 {
+  margin-top: 0;
+}
+
+
+/* 
+   PRÉPARATION 
+*/
+.recette__div:nth-of-type(2) {
+  order: 2;
+  flex: 1 1 100%;
+}
+
+/* 
+   LISTES
+ */
+#recette li {
+  padding: 4px 0;
+  line-height: 1.5;
+}
+
+/* 
+   RESPONSIVE 
+ */
+@media (max-width: 768px) {
+
+  .recette {
+    flex-direction: column;
+  }
+
+  /* Image en haut */
+  .recette__image {
+    order: 1;
+    max-width: 100%;
+    flex: 1 1 100%;
+    transform: rotate(0deg); 
+  }
+
+  
+  .recette__div:nth-of-type(1) {
+    order: 2;
+    flex: 1 1 100%;
+  }
+
+
+  .recette__div:nth-of-type(2) {
+    order: 3;
+    flex: 1 1 100%;
+  }
+}

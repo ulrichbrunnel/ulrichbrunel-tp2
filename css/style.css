@@ -51,7 +51,7 @@ section, header, footer {
 .conteneur:nth-of-type(3) { background-color: rgb(17, 118, 138); }
 .conteneur:nth-of-type(4) { background-color: rgb(163, 42, 182); }
 .conteneur:nth-of-type(5) { background-color: rgb(228, 205, 27); }
-.conteneur:nth-of-type(6) { background-color: rgb(44, 39, 4); }
+.conteneur:nth-of-type(7) { background-color: rgb(240, 128, 128); }
 
 /* ////////////////////////////////////////////////// .hero */
 .hero {
